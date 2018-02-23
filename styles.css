@@ -1,43 +1,33 @@
+
 body {
-  background-color: #eee;
+  background: transparent none no-repeat scroll (0,0); /* color url(img.png) repeat attachment position */
   padding: 10px;
-  font-family: Courier;
-  font-size: 13px;
+  font: normal normal normal 13px Courier /* style variant weight size/line-height family */
 }
 
 .card {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #5a5a5a;
-  border-radius: 10px;
-  background-image: url("paper.jpg");
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 14px;
   width: 300px;
+  background: transparent url(paper.jpg) repeat scroll top left; /* #color url(img.png) repeat attachment position */
+  border: 1px solid #666; /* width style color */
+  border-radius: 10px;
+  padding: 0 14px 10px 10px;
   box-shadow: 5px 5px 5px 5px #ccc;
 }
 
 .title {
-  font-size: 32px;
-  line-height: 0px;
+  font: Bold normal normal 32px/0 Courier /* style variant weight size/line-height family */
 }
 
 .photo {
-  border-style: dashed;
-  border-width: 2px;
-  border-color: #5a5a5a;
+  border: 2px dashed #666; /* width style color */
 }
 
 .info_box {
-  border-style: dashed;
-  border-width: 2px;
-  border-color: #5a5a5a;
-  background-image: url("paper_light.jpg");
-  margin-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
   width: 280px;
+  background: transparent url(paper_light.jpg) repeat scroll top left; /* #color url(img.png) repeat attachment position(0.0) */
+  border: 2px dashed #666; /* width style color */
+  margin-top: 10px;
+  padding: 0 10px;
 }
 
 .fun_fact {
@@ -46,9 +36,9 @@ body {
 
 .list {
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
 }
 
-span {
+.bold_list {
   font-weight: bold;
 }

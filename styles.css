@@ -1,0 +1,54 @@
+body {
+  background-color: #eee;
+  padding: 10px;
+  font-family: Courier;
+  font-size: 13px;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #5a5a5a;
+  border-radius: 10px;
+  background-image: url("paper.jpg");
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 14px;
+  width: 300px;
+  box-shadow: 5px 5px 5px 5px #ccc;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 0px;
+}
+
+.photo {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #5a5a5a;
+}
+
+.info_box {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #5a5a5a;
+  background-image: url("paper_light.jpg");
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 280px;
+}
+
+.fun_fact {
+  font-style: italic;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+span {
+  font-weight: bold;
+}
